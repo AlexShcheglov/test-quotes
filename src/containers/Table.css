@@ -1,0 +1,29 @@
+.table {
+	text-align: left;
+	margin: 20px 0;
+}
+.table-header {
+	display: flex;
+	line-height: 24px;
+	font-size: 16px;
+	justify-content: space-between;
+}
+.table-row {
+	display: flex;
+	align-items: center;
+	line-height: 24px;
+	margin: 10px 0;
+	padding: 10px;
+	border: 1px solid #e3e3e3;
+}
+.table-row > span {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 0 10px;
+	user-select: none;
+}
+
+.faAlignJustify {
+	font-size: 20px;
+	margin: 0px 0;
+}
